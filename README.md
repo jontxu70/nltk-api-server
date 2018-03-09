@@ -298,7 +298,7 @@ for the code to run. You can refer to: [http://www.nltk.org/data.html](http://ww
 
 * Interactive Method:
 
-        * `virtualenv nltk-api`
+        python
 
         In [1]: import nltk
 
