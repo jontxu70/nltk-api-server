@@ -298,10 +298,8 @@ for the code to run. You can refer to: [http://www.nltk.org/data.html](http://ww
 
 * Interactive Method:
 
-        'python'
+        `python´
 
         In [1]: import nltk
 
-        In [2]: nltk.download()
-
-(You can download all: 'all')
+        In [2]: nltk.download()  (You can download all: 'all')
