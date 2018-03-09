@@ -291,13 +291,17 @@ NLTK Sentiment Analyzer used: vader
 * `virtualenv nltk-api`
 * `source nltk-api/bin/activate`
 * `pip install -r requirements.txt` (wait till the requirements are installed)
-* `python manage.py runserver` This will run the application on [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+* `python manage.py runserver 0.0.0.0` This will run the application on [http://your_ip_adderss:8000/](http://your_ip_address:8000/) Remove 0.0.0.0 if you don't share it and ip address will be 127.0.0.0:8000
 
 **IMPORTANT:** You will require some corpora and trained models
 for the code to run. You can refer to: [http://www.nltk.org/data.html](http://www.nltk.org/data.html)
 
 * Interactive Method:
 
+        'python'
+
         In [1]: import nltk
 
         In [2]: nltk.download()
+
+(You can download all: 'all')
